@@ -45,9 +45,13 @@ header {
 }
 
 .logo {
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 3px;
-  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  display: block;
 }
 
 /* NAV */
@@ -236,6 +240,10 @@ footer {
     display: flex;
   }
 
+  .logo img {
+    height: 40px;
+  }
+
   .hero {
     height: 90vh;
     align-items: flex-start;
@@ -282,7 +290,10 @@ footer {
 <header>
   <div class="container">
     <div class="header-inner">
-      <div class="logo">nodo</div>
+      
+      <div class="logo">
+        <img src="imgs/PNG1.png" alt="nodo">
+      </div>
 
       <nav id="nav">
         <a href="#about">sobre nosotras</a>
